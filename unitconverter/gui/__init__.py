@@ -1,7 +1,7 @@
 import sys
 from PyQt4.QtGui import QApplication
 
-from UnitConverter import UnitConverter
+from .UnitConverter import UnitConverter
 
 def run_gui():
     app = QApplication(sys.argv)
